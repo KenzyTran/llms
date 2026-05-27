@@ -37,12 +37,12 @@ Tóm tắt nhanh:
 1. Cài Python 3.11 và [uv](https://docs.astral.sh/uv/) (hoặc Anaconda).
 2. `uv sync` để cài dependencies theo `pyproject.toml` / `uv.lock`.
 3. Tạo file `.env` chứa các API key cần dùng (`OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, `GOOGLE_API_KEY`, `HF_TOKEN`, …). Bạn có thể bỏ trống key nào không dùng.
-4. Cài [Ollama](https://ollama.com) nếu muốn chạy mô hình open-source tại local: `ollama run llama3.2`.
+4. Cài [Ollama](https://ollama.com) nếu muốn chạy mô hình open-source tại local: `ollama run llama4`.
 5. Với Week 3 và Week 8 (phần GPU nặng), tôi chạy trên Google Colab — link Colab được nhúng trong từng notebook.
 
 ## API cost
 
-Mục tiêu của tôi là giữ chi phí ở mức **vài đô cho toàn bộ project**. Hầu hết notebook có thể chạy bằng model rẻ (`gpt-4.1-nano`, `claude-3-haiku`, `gemini-flash`) hoặc thay thế hoàn toàn bằng Ollama local.
+Mục tiêu của tôi là giữ chi phí ở mức **vài đô cho toàn bộ project**. Hầu hết notebook có thể chạy bằng model rẻ (`gpt-5.4-nano`, `claude-haiku-4.5`, `gemini-flash`) hoặc thay thế hoàn toàn bằng Ollama local.
 
 Bảng monitor chi phí:
 

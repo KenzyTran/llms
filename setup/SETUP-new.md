@@ -116,7 +116,7 @@ Sau đó mở `01-frontier-and-ollama/day1.ipynb`, nhấn "Select Kernel" ở g�
 Nếu muốn chạy các mô hình open-source mà không tốn phí API:
 
 1. Tải Ollama từ https://ollama.com.
-2. Chạy thử: `ollama run llama3.2` (hoặc `llama3.2:1b` nếu máy yếu). **Tránh** `llama3.3` 70B — quá nặng cho máy cá nhân.
+2. Chạy thử: `ollama run llama4` (mặc định là Scout, 17B active params). **Tránh** `llama4:behemoth` — quá nặng cho máy cá nhân.
 3. Nếu không chạy được, mở thêm một Terminal khác và chạy `ollama serve`, rồi thử lại lệnh trên.
 
 ## Xong rồi!

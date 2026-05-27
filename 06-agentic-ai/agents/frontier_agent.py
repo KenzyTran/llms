@@ -9,7 +9,7 @@ class FrontierAgent(Agent):
     name = "Frontier Agent"
     color = Agent.BLUE
 
-    MODEL = "gpt-4o-mini"
+    MODEL = "gpt-5.4-mini"
 
     def __init__(self, collection):
         """
