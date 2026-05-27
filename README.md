@@ -26,6 +26,7 @@ Mỗi thư mục `weekN` là một module — các module build tiếp lên nhau
 | [04-code-gen-benchmark/](04-code-gen-benchmark/) | So sánh và **benchmark** nhiều frontier model cho bài toán sinh code hiệu năng cao (Python → C++), đo tốc độ thực thi và độ chính xác. |
 | [05-rag-langchain/](05-rag-langchain/) | **RAG** với **LangChain**: embeddings, vector store, retriever, đánh giá chất lượng truy xuất trên `knowledge-base/`. |
 | [06-agentic-ai/](06-agentic-ai/) | **Agentic AI**: hệ nhiều agent cộng tác (planner, scanner, pricer, messenger…), kết hợp lại RAG và frontier model để giải quyết bài toán end-to-end. |
+| [07-agentic-rag/](07-agentic-rag/) | **Agentic RAG**: nâng cấp RAG truyền thống bằng agent — tự động quyết định khi nào cần truy xuất, khi nào đủ context để trả lời. |
 
 ## Setup
 
